@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(9, 1, 19);
+}
+.nav-2 a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.nav-2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:static;
+}
+.nav-2 li{
+    list-style: none;
+    margin: 10px;
+}
+.nav-1 h2{
+    margin: 10px;
+    margin-right: 10px;
+    color: rgb(110, 13, 228);
+
+}
+.nav-2 a:hover {
+    color: rgb(171, 97, 232);
+}
+.id{
+    border: 3px solid rgb(86, 7, 232);
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    
+
+}
+.about {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+text-transform: capitalize;
+}
+.about {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    animation: typing 3.5s steps(20) 1s 1 normal both, blink 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+
+.btn{
+   
+    text-align: center;
+    margin: 20px;
+    margin: 70px;
+    
+  
+
+}
+button{
+    border-radius: 10px !important;
+    background-color: rgb(185, 125, 240) !important;
+    width: 200px !important;
+    height: 65px !important;
+    border-radius: 30px !important;
+    
+
+    font-size: 30px !important;
+    text-transform: capitalize !important;
+}
+button:hover{
+    background-color: transparent !important;
+    color: white !important;
+}
+.about{
+    animation:kaja ;
+    animation-name: fade-in;
+}
+.services{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 100px;
+    
+}
+
+
+span{
+    color: blueviolet;
+    
+}
+i{
+    font-size: 100px;
+    color:rgb(132, 70, 190);
+    margin: 10px;
+}
+.ser-1{
+    width: 400px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px;
+    padding: 20px;
+
+}
+.ser-1:hover{
+    border:3px solid blue ;
+}
+.cont{
+    margin: 20px;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+@media screen and (min-width:600px) {
+    .icons i{
+    opacity: 0;
+    }
+    .nav-2 i{
+        font-size: 20px !important;
+        
+        opacity: 0 !important;
+    }
+    .ids{
+        border: 3px solid rgb(86, 7, 232);
+        text-align: center;
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        
+    
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    
+    .nav-2 i{
+        font-size: 20px !important;
+        opacity: 1 !important;
+        
+    }
+    .nav-2 ul{
+        display: none;
+    }
+    .nav-2:hover ul{
+        display: block;
+        text-align: center;
+        
+    }
+    .ids{
+        border: 3px solid blue;
+        border-radius: 20px;
+    }
+  .k{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column;
+    
+  }
+.l{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column; 
+}
+  
+}
+.work{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    margin: 30px;
+
+}
+.img{
+    width: 300px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 4px 4px rgb(55, 45, 65);
+}
+.img:hover{
+    border: 3px solid blue;
+}
+.img p{
+    margin: 10px;
+    color: rgb(198, 192, 192);
+    font-size: 20px;
+}
+.img h2{
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+.k{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+  .projects{
+    width:250px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+border: 2px solid white;
+
+
+
+  }
+  .imgs img{
+    width: 200px !important;
+    margin: 20px;
+  }
+  .projects-cont{
+    opacity: 0;
+    text-transform: capitalize;
+
+  }
+  
+  .projects-cont:hover{
+    opacity: 1;
+  }
+  .projects-cont p{
+    margin: 10px;
+    color: rgb(193, 189, 189);
+
+  }
+  .projects-cont h2{
+    margin: 10px;
+    color: white;
+  }
+  .projects-cont a{
+    text-decoration: none;
+    color: blueviolet;
+  }
+  .l{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+/* Contact Form Container */
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    height: 100vh;
+}
+
+.contact-form-container .contact-form {
+    background-color: #f1eff1 !important;
+    padding: 20px !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px ;
+}
+
+
+
+/* Form Styles */
+.contact-form {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.submit-btn {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    font-size: 10px !important;
+    border: none !important;
+    border-radius: 4px !important; 
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px !important;
+}
+
+.submit-btn:hover {
+    background-color: #45a049 !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .contact-form-container .contact-form {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
